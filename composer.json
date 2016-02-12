@@ -1,0 +1,33 @@
+{
+    "name": "pdyn/image",
+    "description": "A class to read and manipulate images.",
+    "type": "library",
+    "keywords": ["image", "exif"],
+    "homepage": "https://pdyn.net",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "James McQuillan",
+            "email": "james@pdyn.net",
+            "role": "Developer"
+        }
+    ],
+    "version": "1.0.5",
+    "support": {
+        "email": "support@pdyn.net"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "pdyn/filesystem": "1.0.*",
+        "pdyn/datatype": "1.0.*",
+        "lsolesen/pel": ">=0.9.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=5.1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "pdyn\\image\\": "."
+        }
+    }
+}
